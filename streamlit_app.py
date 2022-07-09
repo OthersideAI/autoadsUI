@@ -18,7 +18,7 @@ if st.button("Generate Ads and Keywords"):
     response_json = response.json()
     headlines = response_json["Headlines"]
     descriptions = response_json["Descriptions"]
-    keywords = response.json["Keywords"]
+    keywords = response_json["Keywords"]
 
     # display the translation and reasoning
     st.write('Headlines')
